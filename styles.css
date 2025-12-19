@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#title {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 50px;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#container {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.btn {
+  background-color: red;
+  border-radius: 5%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
