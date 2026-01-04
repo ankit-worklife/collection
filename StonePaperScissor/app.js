@@ -22,7 +22,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     } else {
         compScore++;
         compScorePara.innerText = compScore; 
-        msg.innerText = `You lose. Your ${compChoice} lose to Bot's ${userChoice}.`;
+        msg.innerText = `You lose. Your ${userChoice} lose to Bot's ${compChoice}.`;
         msg.style.backgroundColor = "red";
     }
 }
@@ -54,4 +54,5 @@ choices.forEach((choice) => {
     playGame(userChoice);
   });
 });
+
 
